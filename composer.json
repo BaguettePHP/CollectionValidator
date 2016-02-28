@@ -1,0 +1,25 @@
+{
+    "name": "zonuexe/collection-validator",
+    "description": "Collection Validator",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Teto\\CollectionValidator\\": "./src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Teto\\CollectionValidator\\": "./tests"
+        }
+    },
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.2",
+        "athletic/athletic": "^0.1.8"
+    },
+    "scripts": {
+        "benchmark": "athletic -p ./tests/"
+    }
+}
